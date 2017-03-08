@@ -2,10 +2,9 @@
   box-sizing: border-box;
 }
 body {
-  color: #333333; 
+  color: #150000; 
   font-family: 'Helvetica Neue', Helvetica, sans-serif;
-  background-color: #c4dce1;              /*change your Bkg color*/
-
+  background-color: #ffd2a4;            
 }
 
 a, a:active, a:visited {
@@ -24,14 +23,14 @@ footer {
 }
 
 footer p {
-  font-size: 24px; /*font size in footer*/
+  font-size: 24px;
   padding: 0;
   margin: 0;
 }
 
 header {
   background: #C8C1B7;
-  background-image: url("../img/gallerybanner.jpg"); /*change your banner image*/
+  background-image: url("../img/patturn.png");
   background-size: cover;
   border-bottom: 1px solid #999999;
   height: 120px;
@@ -62,7 +61,7 @@ header nav > ul li {
   height: 100%;
   float: left;
   font-weight: 300;
-  font-size: 36px;            /* Font size on banner for menu buttons only*/
+  font-size: 36px;
   list-style-type: none;
   margin-right: 2rem;
   transition: border-color 200ms ease-in-out;
@@ -70,7 +69,7 @@ header nav > ul li {
 }
 
 header nav > ul li:hover, header nav > ul li.active {
-  border-bottom-color: #0066CC;                      /*change your body color*/
+  border-bottom-color: #0064CC;                      /*change your body color*/
 }
 
 header nav > ul li:hover a, header nav > ul li.active a {
@@ -81,7 +80,7 @@ header nav a, header nav a:visited {
   display: block;
   line-height: 60px;
   text-decoration: none;
-  color: #C8C1B7;                         /*changes banner text color*/
+  color: #D6CFC9;                         /*changes banner text color*/
   transition: color 200ms ease-in-out;
 }
 
